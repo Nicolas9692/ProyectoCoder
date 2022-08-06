@@ -61,6 +61,7 @@ ul.show {
 /* Section1 */
 
 .wrap {
+  margin-top: -10px;
   width: 100%;
   height: 1100px;
   display: flex;
@@ -68,7 +69,7 @@ ul.show {
   justify-content: center;
   background: linear-gradient(to top,
    rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),url(img/bicepsSentado.jpg);
-   background-size: 100% 100%;
+   background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
 }
@@ -315,7 +316,7 @@ ul.show {
   overflow: hidden;
   text-align: start;
   position: relative;
-  margin: 200px auto;
+  margin: 50px auto;
   border-radius: 20px;
   box-shadow: 5px 8px 12px black;
   cursor: pointer;
@@ -341,6 +342,11 @@ ul.show {
   text-align: center;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.ancorImagen {
+  text-decoration: none;
+  color: white;
 }
 
 /* Iframe */
