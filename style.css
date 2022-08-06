@@ -316,7 +316,7 @@ ul.show {
   overflow: hidden;
   text-align: start;
   position: relative;
-  margin: 200px auto;
+  margin: 50px auto;
   border-radius: 20px;
   box-shadow: 5px 8px 12px black;
   cursor: pointer;
@@ -342,6 +342,11 @@ ul.show {
   text-align: center;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.ancorImagen {
+  text-decoration: none;
+  color: white;
 }
 
 /* Iframe */
