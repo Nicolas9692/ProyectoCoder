@@ -6,36 +6,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quién soy - Entrenamientos Nic.fit</title>
   <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main class="grid">
   <header>
-    <nav class="header__menu">
-      <img src="./img/logoVariante.png" class="header__logo" alt="">
-      <ul class="menu__items">
-        <li><a href="index.html">Inicio</a></li>
-        <li class="active"><a href="quienSoy.html">¿Quién soy?</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="#">Planes y rutinas</a></li>
-        <li><a href="#">Contacto</a></li>
+  <div class=".navbar-nav.navbar-center">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #fff;">
+    <a class="navbar-brand" href="#"><img src="./img/logoVariante.png" class="header__logo" alt=""></a>
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto menu__items">
+        <li class="nav-item">
+          <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">QUIÉN SOY</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SERVICIOS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Alimentación y Nutrición</a>
+            <a class="dropdown-item" href="#">Entrenamiento mental</a>
+            <a class="dropdown-item" href="#">Entrenamiento físico</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PLANES Y RUTINAS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Pérdida de grasa</a>
+            <a class="dropdown-item" href="#">Aumento de masa muscular</a>
+            <a class="dropdown-item" href="#">Mantenimiento muscular</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACTO</a>
+        </li>
       </ul>
-   </nav>
+    </div>
+    </div>
+  </nav>
   </header>
   <section id="section1">
     <article>
         <div class="quienSoy">
-            <a href="#quiensoy">¿Quién soy?</a>
-            <a href="#vision">Visión/Objetivo</a>
-            <a href="#mision">Misión/Propósito</a>
-            <a href="#valores">Valores</a>
+            <a href="#quienSoy">-¿Quién soy?</a>
+            <a href="#vision">-Visión/Objetivo</a>
+            <a href="#mision">-Misión/Propósito</a>
+            <a href="#valores">-Valores</a>
         </div>   
         <br> 
-        <div class="quienSoy__contenedor">
-            <h2 id="quiensoy" class="quienSoy__titulo">¿Quién soy?</h2>
+        <div class="container">
+            <h2 id="quienSoy" class="quienSoy__title">¿Quién soy?</h2>
           <div>
             <br>
-            <p class="quienSoy__parrafo">
+            <p class="quienSoy__paragraph">
                 - Mi nombre es Nicolás Martín Aguirre y soy de Lanús.
                 <br>
                 - Mi motivación por la actividad física viene desde los 13, 14 años, que fue cuando empecé a practicar distintos tipos de ejercicio físico. Entre estos, ir al gimnasio, ir a natación, ir a spinning, ir a correr al parque, ir a boxeo.
@@ -45,24 +79,24 @@
             </p>
           </div>
             <br>
-            <h2 id="vision" class="quienSoy__titulo">Visión/Objetivo</h2>
+            <h2 id="vision" class="quienSoy__title">Visión/Objetivo</h2>
             <br>
           <div>
-            <p class="quienSoy__parrafo"> Ser un referente en el entrenamiento y generar consciencia con hábitos saludables, ofreciendo un servicio completo con el plan de entrenamiento adaptado a las necesidades, objetivos, gustos y preferencias de cada persona, que aporte contenido de valor con consejos y tips referidos a la alimentación, el descanso y el entrenamiento mental para poder aplicar en la vida cotidiana.     
+            <p class="quienSoy__paragraph"> Ser un referente en el entrenamiento y generar consciencia con hábitos saludables, ofreciendo un servicio completo con el plan de entrenamiento adaptado a las necesidades, objetivos, gustos y preferencias de cada persona, que aporte contenido de valor con consejos y tips referidos a la alimentación, el descanso y el entrenamiento mental para poder aplicar en la vida cotidiana.     
             </p>
           </div>
             <br>
-            <h2 id="mision" class="quienSoy__titulo">Misión/Propósito</h2>
+            <h2 id="mision" class="quienSoy__title">Misión/Propósito</h2>
             <br>
           <div>
-            <p class="quienSoy__parrafo"> Satisfacer las necesidades y objetivos de cada persona, ofreciendo mi experiencia, compromiso, servicio y responsabilidad para acompañarte en este camino hacia un estilo de vida más saludable.
+            <p class="quienSoy__paragraph"> Satisfacer las necesidades y objetivos de cada persona, ofreciendo mi experiencia, compromiso, servicio y responsabilidad para acompañarte en este camino hacia un estilo de vida más saludable.
             </p>
           </div>
             <br>
-            <h2 id="valores" class="quienSoy__titulo">Valores</h2>
+            <h2 id="valores" class="quienSoy__title">Valores</h2>
             <br>
           <div>
-            <p class="quienSoy__parrafo"> 
+            <p class="quienSoy__paragraph"> 
                 - Compromiso
                 <br>
                 - Sacrificio
@@ -91,7 +125,7 @@
           </div>
         </div>        
     </article>
-</section>
+  </section>
 <section id="section2" class="imagenes">
   <img src="img/sentadilla.jpg" class="imgChica" alt="sentadilla">
   <img src="img/estocada.jpg" class="imgChica" alt="Estocada">
@@ -119,5 +153,8 @@
     </div>
   </footer>
 </main>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
