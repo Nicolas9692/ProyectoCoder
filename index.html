@@ -6,22 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Entrenamientos Nic.fit</title>
   <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main class="grid">
-  <header>
-    <nav class="header__menu">
-      <img src="./img/logoVariante.png" class="header__logo" alt="">
-      <ul class="menu__items">
-        <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="quienSoy.html">¿Quién soy?</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="planesyrut.html">Planes y rutinas</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-   </nav>
-  </header>
+    <header>
+         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+          <a class="navbar-brand" href="#"><img src="./img/logoVariante.png" class="header__logo" alt=""></a>
+         
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto menu__items">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="quienSoy.html">QUIÉN SOY</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SERVICIOS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Alimentación y Nutrición</a>
+                  <a class="dropdown-item" href="#">Entrenamiento mental</a>
+                  <a class="dropdown-item" href="#">Entrenamiento físico</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PLANES Y RUTINAS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Pérdida de grasa</a>
+                  <a class="dropdown-item" href="#">Aumento de masa muscular</a>
+                  <a class="dropdown-item" href="#">Mantenimiento muscular</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        </header>
   <section id="section1" class="wrap">
     <div class="wrap__texto">
       <h1 class="wrap__titulo">¿QUIERES CONSEGUIR TU MEJOR VERSIÓN?</h1>
