@@ -324,10 +324,11 @@ ul.show {
 .contenedorIframe {
   height: 0;
   width: 100%;
+  margin-top: -50px;
 }
 
 iframe {
-  width: 100%;
+  width: 90%;
   height: 600px;
   margin-top: 30px;
   padding: 15px 15px;
@@ -372,12 +373,14 @@ iframe {
   padding: 15px 15px;
   font-size: 30px;
   color: #646363;
+  text-align: center;
 }
 
 .subtitulo {
   padding: 15px 15px;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .formulario {
@@ -391,7 +394,7 @@ iframe {
  }
  
 form {
-  background: #646363;
+  background: #d9d2d2;
   margin: auto;
   width: 90%;
   max-width: 600px;
@@ -399,6 +402,7 @@ form {
   border-radius: 10px;
   box-shadow: 0 5px 10px .5px rgb(0 0 0 / 30%);
   text-align: center;
+  padding: 30px;
  }
 
  .container {
@@ -437,3 +441,6 @@ form {
   color: #646363;
 }
 
+#section2 ul li {
+  list-style: none;
+}

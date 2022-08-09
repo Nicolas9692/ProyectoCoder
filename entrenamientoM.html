@@ -12,23 +12,53 @@
 <body>
 <main class="grid">
   <header>
-    <nav class="header__menu">
-      <img src="./img/logoVariante.png" class="header__logo" alt="">
-      <ul class="menu__items">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="quienSoy.html">¿Quién soy?</a></li>
-        <li class="active"><a href="servicios.html">Servicios</a></li>
-        <li><a href="planesyrut.html"> Planes y rutinas</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-   </nav>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+      <a class="navbar-brand" href="#"><img src="./img/logoVariante.png" class="header__logo" alt=""></a>
+     
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto menu__items">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienSoy.html">QUIÉN SOY</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SERVICIOS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="alimentacion.html">Alimentación y Nutrición</a>
+              <a class="dropdown-item active" href="entrenamientoM.html">Entrenamiento mental</a>
+              <a class="dropdown-item" href="entrenamientoF.html">Entrenamiento físico</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PLANES Y RUTINAS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pérdida de grasa</a>
+              <a class="dropdown-item" href="#">Aumento de masa muscular</a>
+              <a class="dropdown-item" href="#">Mantenimiento muscular</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <section id="section1">
     <div class="container contenedorServicios">
     <article>
         <div class="servicios">
             <h1 class="servicios__titulo">Entrenamiento mental</h1>
-            <br>
             <h2 class="servicios__subtitulo">Claves para ser más efectivos</h2>
             <p class="servicios__parrafo">De todas las personas con las que te relacionas, hay una sola a la que puedes cambiar, y es a ti mismo.
               No importa lo que el otro haga, nuestras acciones y nuestras reacciones son propias de nuestro ser, fueron internamente creadas y desarrolladas por nosotros mismos a lo largo del tiempo, según hayamos tomado por ciertos factores externos, comentarios, sugerencias y experiencias vividas en el pasado, con las cuales creamos el modelo mental que tenemos hoy, y que nos hace accionar y reaccionar de determinada manera frente a sucesos concretos.
@@ -54,23 +84,6 @@
               Seguramente entenderás que, al estar más motivado hará que tu fuerza de voluntad aumente, y que estés dispuesto a tomar acción más de lo que lo hacías antes, dado que tu nivel energético aumentó y comienzas a ver que las cosas no son tan difíciles como tú mismo (mente) te decías a ti hace un tiempo.
             </p>  
         </div>
-    </article>
-    <article>
-      <div class="servicios">
-        <h1 class="servicios__titulo">Alimentación y nutrición</h1>
-        <p class="servicios__parrafo">La alimentación es un proceso voluntario a través del cual las personas se proporcionan sustancias aptas para el consumo, las modifica partiéndolas, cocinándolas, introduciéndolas en la boca, masticándolas y deglutiéndolas. Es a partir de este momento que acaba la alimentación y empieza la nutrición, que es un proceso inconsciente e involuntario en el que se recibe, transforma y utiliza las sustancias nutritivas (sustancias químicas más simples) que contienen los alimentos.
-          <br><br> La alimentación se considera adecuada y saludable cuando:
-          <br> - Suficiente para cubrir las exigencias y mantener el equilibrio del organismo.
-          <br> - Completa y variada en su composición con inclusión diaria de todos los nutrientes y en ciertas cantidades y proporciones, según la edad y circunstancias de vida.
-          <br> - Adecuada a las diferentes finalidades, en el organismo según el caso: conservar la salud, cooperar en curar las enfermedades, asegurar el crecimiento y desarrollo de los niños.
-          <br> - Adaptada a las necesidades y gasto energético de cada individuo.
-          <br> - Si queremos mantener la salud deberemos conocer sus necesidades y también la composición de los alimentos, sus nutrientes. Así podremos analizar si nuestra forma habitual de alimentarnos es la correcta o si no lo es, modificar nuestra alimentación.
-          <br><br> Los alimentos que ingerimos contienen nutrientes que son útiles al organismo para generar células que trasladen esos nutrientes a células nerviosas, que las convertirán luego en sustancias químicas llamadas neurotransmisores, capaces de distribuir y depositar la información recibida por el cerebro, en otras células nerviosas llamadas neuronas.
-          <br> Estas neuronas se agrupan en redes neuronales, que se encuentran asociadas de manera directa con nuestros hábitos y costumbres, los cuales determinan nuestra conducta.
-          <br> La calidad de funciones como la atención, la concentración, la emoción, la relajación, la memoria, la focalización, entre otras; está íntimamente relacionada con los componentes nutricionales presentes en los alimentos que ingerimos. Por lo tanto, la elección de esos alimentos será clave para aumentar o disminuir la calidad de dichas funciones.
-          <br><br> Es importante llevar una alimentación equilibrada en todos los macronutrientes y micronutrientes que necesitamos para un buen funcionamiento del organismo y para llevar un estilo de vida saludable, así como también para poder optimizar el rendimiento físico y conseguir de manera más efectiva los objetivos propuestos.
-        </p>
-      </div>
     </article>
     </div>
   </section>
