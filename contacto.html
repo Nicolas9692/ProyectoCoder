@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Entrenamientos Nic.fit</title>
-  <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
 </head>
+
 <body>
-<main class="grid">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+  <main class="grid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
         <a class="navbar-brand" href="#"><img src="./img/logoVariante.png" class="header__logo" alt=""></a>
-       
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto menu__items">
             <li class="nav-item">
@@ -28,7 +33,8 @@
               <a class="nav-link" href="quienSoy.html">QUIÉN SOY</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 SERVICIOS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,201 +52,213 @@
           </ul>
         </div>
       </nav>
-  </header>
-  <section id="section1">
-    <div>
-      <h1 class="titulo">¿ESTÁS PREPARADO PARA EMPEZAR A ENTRENAR?</h1>
-      <h2 class="subtitulo">¡¡Contactame para saber más de mis planes!!</h2>
-  </section>
-  <section id="section2">
-    <div class="formulario">
-    <form action="basededatos.php" class="margen" method="POST">
-      <fieldset>
-              <div>
-                  <label for="email">Correo electrónico:</label>
-                  <input type="text" name="email">
-              </div>
-              <br>
-              <div>
-                  <label for="pais">País:</label>
-                  <br>
-                  <input type="radio" name="pais" value="argentina"> Argentina
-                  <br>
-                  <input type="radio" name="pais" value="uruguay"> Uruguay
-                  <br>
-                  <input type="radio" name="pais" value="chile"> Chile
-                  <br>
-                  <input type="radio" name="pais" value="paraguay"> Paraguay
-                  <br>
-                  <input type="radio" name="pais" value="mexico"> México
-                  <br>
-                  <input type="radio" name="pais" value="espania"> España
-                  <br>
-                  <input type="radio" name="pais" value="espania"> Otro:
-                  <input type="text" name="otro">
-              </div>
-              <br>
-              <div>
-                  <label for="telefonocelular">Telefono Celular:</label>
-                  <input type="text" name="telefonocelular">
-              </div>
-              <br>
-              <div>
-                  <label for="nombre">Nombre/s:</label>
-                  <input type="text" name="nombre">
-              </div>
-              <br>
-              <div>
-                  <label for="apellido">Apellido/s:</label>
-                  <input type="text" name="apellido">
-              </div>
-              <br>
-              <div>
-                  <label for="genero">Género:</label>
-                  <br>
-                  <input type="radio" name="genero" value="Masculino"> Masculino
-                  <br>
-                  <input type="radio" name="genero" value="Femenino"> Femenino
-              </div>
-              <br>
-              <div>
-                  <label for="edad">Edad:</label>
-                  <input type="text" name="edad">
-              </div>
-              <br>
-              <div>
-                  <label for="suplementos">¿Tomás algun suplemento?</label>
-                  <br>
-                  <input type="radio" value="Si" name="suplementos"> Si
-                  <br>
-                  <input type="radio" value="No" name="suplementos"> No
-              </div>
-              <br>
-              <div>
-                  <label for="altura">Altura:</label>
-                  <input type="text" name="altura">
-              </div>
-              <br>
-              <div>
-                  <label for="peso">Peso:</label>
-                  <input type="text" name="peso">
-              </div>
-              <br>
-              <div>
-                  <label for="lesiones">¿Tienes lesiones actualmente?</label>
-                  <br>
-                  <input type="radio" value="Si" name="lesiones"> Si
-                  <br>
-                  <input type="radio" value="No" name="lesiones"> No
-                  <br>
-                  <label for="especifique">Especifique:</label>
-                  <input type="text" name="especifique">
-              </div>
-              <br>
-              <div>
-                  <label for="niveldeentrenamiento">¿Qué nivel de entrenamiento consideras que tienes?</label>
-                  <br>
-                  <input type="radio" value="Bajo" name="niveldeentrenamiento"> Bajo
-                  <br>
-                  <input type="radio" value="Medio" name="niveldeentrenamiento"> Medio
-                  <br>
-                  <input type="radio" value="Alto" name="niveldeentrenamiento"> Alto
-              </div>
-              <br>
-              <div>
-                  <label for="objetivodeentrenamiento">¿Qué objetivos de entrenamiento tienes?</label>
-                  <br>
-                  <input type="checkbox" value="perdidadegrasa" name="objetivodeentrenamiento"> Pérdida de grasa 
-                  <br>
-                  <input type="checkbox" value="aumentodemasamuscular" name="objetivodeentrenamiento"> Aumento de masa muscular
-                  <br>
-                  <input type="checkbox" value="mantenimientomuscular" name="objetivodeentrenamiento"> Mantenimiento muscular
-                  <br>
-                  <label for="prioridad">Prioridad:</label>
-                  <input type="text" name="prioridad">
-              </div>
-              <br>
-              <div>
-                  <label for="regionamejorar">Región preferente del cuerpo a mejorar:</label>
-                  <input type="text" name="regionamejorar">
-              </div>
-              <br>
-              <div>
-                  <label for="motivacion">¿Qué tan motivado/a estás?</label>
-                  <br>
-                  <input type="radio" value="1" name="motivacion"> 1
-                  <input type="radio" value="2" name="motivacion"> 2
-                  <input type="radio" value="3" name="motivacion"> 3
-                  <input type="radio" value="4" name="motivacion"> 4
-                  <input type="radio" value="5" name="motivacion"> 5
-                  <input type="radio" value="6" name="motivacion"> 6
-                  <input type="radio" value="7" name="motivacion"> 7
-                  <input type="radio" value="8" name="motivacion"> 8
-                  <input type="radio" value="9" name="motivacion"> 9
-                  <input type="radio" value="10" name="motivacion"> 10
-              </div>
-              <br>
-              <div>
-                  <label for="frecuencia">¿Qué tan seguido vas a entrenar?</label>
-                  <br>
-                  <input type="radio" value="1o2dias" name="frecuencia"> 1-2 días a la semana
-                  <br>
-                  <input type="radio" value="2o3dias" name="frecuencia"> 2-3 días a la semana
-                  <br>
-                  <input type="radio" value="3o4dias" name="frecuencia"> 3-4 días a la semana
-                  <br>
-                  <input type="radio" value="4o5dias" name="frecuencia"> 4-5 días a la semana
-                  <br>
-                  <input type="radio" value="5o6dias" name="frecuencia"> 5-6 días a la semana
-              </div>
-              <br>
-              <div>
-                  <label for="plan">Plan de entrenamiento elegido</label>
-                  <select name="plan">
-                      <option value=""></option>
-                      <option value="plan1">Plan de ejercicio físico (A distancia)</option>
-                      <option value="plan2">Plan de ejercicio físico + Nutrición (A distancia)</option>
-                      <option value="plan3">Clases de entrenamiento personalizado (Online)</option>
-                      <option value="plan4">Clases de entrenamiento personalizado (Presencial)</option>
-                  </select>
-                  <br>
-              </div>
-              <br>
-              <div>
-                  <label for="comentarios">Comentarios:</label>
-                  <textarea name="comentarios"></textarea>
-              </div>
-              <br>
-              <div>
-                  <input type="submit" value="Enviar Formulario">
-              </div>
-       </fieldset>
-  </form>
-  </div>
-  </section>
-  
-<footer>
-  <div class="footer">
-    <img src="./img/firmaLogo.jpeg" class="footer__firmaLogo" alt="">
-    <section class="footer__contacto">
-        <h3 class="footer__titulo">Contactame</h3>
-        <div class="footer__iconos">
-            <span class="footer__contenedor-iconos">
-                <a href="https://wa.link/xh6pax" target="_blank"><img src="img/whatsapp.png" class="footer__icono" alt=""></a>
-            </span>
-            <span class="footer__contenedor-iconos">
-                <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" class="footer__icono" alt=""></a>                        
-            </span>
-            <span class="footer__contenedor-iconos">
-                <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" class="footer__icono" alt=""></a>
-            </span>
-        </div>
+    </header>
+    <section id="section1">
+      <div>
+        <h1 class="titulo">¿ESTÁS PREPARADO PARA EMPEZAR A ENTRENAR?</h1>
+        <h2 class="subtitulo">¡¡Contactame para saber más de mis planes!!</h2>
     </section>
-  </div>
-</footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <section id="section2">
+      <div class="formulario">
+        <form action="basededatos.php" class="margen" method="POST">
+          <fieldset>
+            <div>
+              <label for="email">Correo electrónico:</label>
+              <input type="text" name="email">
+            </div>
+            <br>
+            <div>
+              <label for="pais">País:</label>
+              <br>
+              <input type="radio" name="pais" value="argentina"> Argentina
+              <br>
+              <input type="radio" name="pais" value="uruguay"> Uruguay
+              <br>
+              <input type="radio" name="pais" value="chile"> Chile
+              <br>
+              <input type="radio" name="pais" value="paraguay"> Paraguay
+              <br>
+              <input type="radio" name="pais" value="mexico"> México
+              <br>
+              <input type="radio" name="pais" value="espania"> España
+              <br>
+              <input type="radio" name="pais" value="espania"> Otro:
+              <input type="text" name="otro">
+            </div>
+            <br>
+            <div>
+              <label for="telefonocelular">Telefono Celular:</label>
+              <input type="text" name="telefonocelular">
+            </div>
+            <br>
+            <div>
+              <label for="nombre">Nombre/s:</label>
+              <input type="text" name="nombre">
+            </div>
+            <br>
+            <div>
+              <label for="apellido">Apellido/s:</label>
+              <input type="text" name="apellido">
+            </div>
+            <br>
+            <div>
+              <label for="genero">Género:</label>
+              <br>
+              <input type="radio" name="genero" value="Masculino"> Masculino
+              <br>
+              <input type="radio" name="genero" value="Femenino"> Femenino
+            </div>
+            <br>
+            <div>
+              <label for="edad">Edad:</label>
+              <input type="text" name="edad">
+            </div>
+            <br>
+            <div>
+              <label for="suplementos">¿Tomás algun suplemento?</label>
+              <br>
+              <input type="radio" value="Si" name="suplementos"> Si
+              <br>
+              <input type="radio" value="No" name="suplementos"> No
+            </div>
+            <br>
+            <div>
+              <label for="altura">Altura:</label>
+              <input type="text" name="altura">
+            </div>
+            <br>
+            <div>
+              <label for="peso">Peso:</label>
+              <input type="text" name="peso">
+            </div>
+            <br>
+            <div>
+              <label for="lesiones">¿Tienes lesiones actualmente?</label>
+              <br>
+              <input type="radio" value="Si" name="lesiones"> Si
+              <br>
+              <input type="radio" value="No" name="lesiones"> No
+              <br>
+              <label for="especifique">Especifique:</label>
+              <input type="text" name="especifique">
+            </div>
+            <br>
+            <div>
+              <label for="niveldeentrenamiento">¿Qué nivel de entrenamiento consideras que tienes?</label>
+              <br>
+              <input type="radio" value="Bajo" name="niveldeentrenamiento"> Bajo
+              <br>
+              <input type="radio" value="Medio" name="niveldeentrenamiento"> Medio
+              <br>
+              <input type="radio" value="Alto" name="niveldeentrenamiento"> Alto
+            </div>
+            <br>
+            <div>
+              <label for="objetivodeentrenamiento">¿Qué objetivos de entrenamiento tienes?</label>
+              <br>
+              <input type="checkbox" value="perdidadegrasa" name="objetivodeentrenamiento"> Pérdida de grasa
+              <br>
+              <input type="checkbox" value="aumentodemasamuscular" name="objetivodeentrenamiento"> Aumento de masa
+              muscular
+              <br>
+              <input type="checkbox" value="mantenimientomuscular" name="objetivodeentrenamiento"> Mantenimiento
+              muscular
+              <br>
+              <label for="prioridad">Prioridad:</label>
+              <input type="text" name="prioridad">
+            </div>
+            <br>
+            <div>
+              <label for="regionamejorar">Región preferente del cuerpo a mejorar:</label>
+              <input type="text" name="regionamejorar">
+            </div>
+            <br>
+            <div>
+              <label for="motivacion">¿Qué tan motivado/a estás?</label>
+              <br>
+              <input type="radio" value="1" name="motivacion"> 1
+              <input type="radio" value="2" name="motivacion"> 2
+              <input type="radio" value="3" name="motivacion"> 3
+              <input type="radio" value="4" name="motivacion"> 4
+              <input type="radio" value="5" name="motivacion"> 5
+              <input type="radio" value="6" name="motivacion"> 6
+              <input type="radio" value="7" name="motivacion"> 7
+              <input type="radio" value="8" name="motivacion"> 8
+              <input type="radio" value="9" name="motivacion"> 9
+              <input type="radio" value="10" name="motivacion"> 10
+            </div>
+            <br>
+            <div>
+              <label for="frecuencia">¿Qué tan seguido vas a entrenar?</label>
+              <br>
+              <input type="radio" value="1o2dias" name="frecuencia"> 1-2 días a la semana
+              <br>
+              <input type="radio" value="2o3dias" name="frecuencia"> 2-3 días a la semana
+              <br>
+              <input type="radio" value="3o4dias" name="frecuencia"> 3-4 días a la semana
+              <br>
+              <input type="radio" value="4o5dias" name="frecuencia"> 4-5 días a la semana
+              <br>
+              <input type="radio" value="5o6dias" name="frecuencia"> 5-6 días a la semana
+            </div>
+            <br>
+            <div>
+              <label for="plan">Plan de entrenamiento elegido</label>
+              <select name="plan">
+                <option value=""></option>
+                <option value="plan1">Plan de ejercicio físico (A distancia)</option>
+                <option value="plan2">Plan de ejercicio físico + Nutrición (A distancia)</option>
+                <option value="plan3">Clases de entrenamiento personalizado (Online)</option>
+                <option value="plan4">Clases de entrenamiento personalizado (Presencial)</option>
+              </select>
+              <br>
+            </div>
+            <br>
+            <div>
+              <label for="comentarios">Comentarios:</label>
+              <textarea name="comentarios"></textarea>
+            </div>
+            <br>
+            <div>
+              <input type="submit" value="Enviar Formulario">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <img src="./img/firmaLogo.jpeg" class="footer__firmaLogo" alt="">
+        <section class="footer__contacto">
+          <h3 class="footer__titulo">Contactame</h3>
+          <div class="footer__iconos">
+            <span class="footer__contenedor-iconos">
+              <a href="https://wa.link/xh6pax" target="_blank"><img src="img/whatsapp.png" class="footer__icono"
+                  alt=""></a>
+            </span>
+            <span class="footer__contenedor-iconos">
+              <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" class="footer__icono"
+                  alt=""></a>
+            </span>
+            <span class="footer__contenedor-iconos">
+              <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" class="footer__icono"
+                  alt=""></a>
+            </span>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

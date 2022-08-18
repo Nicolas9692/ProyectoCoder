@@ -1,126 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios - Entrenamientos Nic.fit</title>
   <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
 </head>
+
 <body>
-<main class="grid">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
-      <a class="navbar-brand" href="#"><img src="./img/logoVariante.png" class="header__logo" alt=""></a>
-     
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto menu__items">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quienSoy.html">QUIÉN SOY</a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              SERVICIOS
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="alimentacion.html">Alimentación y Nutrición</a>
-              <a class="dropdown-item" href="entrenamientoM.html">Entrenamiento mental</a>
-              <a class="dropdown-item active" href="entrenamientoF.html">Entrenamiento físico</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">PLANES Y RUTINAS <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTO</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <section id="section1">
-    <div class="container contenedorServicios">
-    <article>
-        <div class="servicios">
-          <h1 class="servicios__titulo">Entrenamiento físico</h1>
-          <h2 class="servicios__subtitulo">Las sesiones de entrenamiento se dividirán en 3 partes:</h2>
+  <main class="grid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+        <a class="navbar-brand" href="#"><img src="./img/logoVariante.png" class="header__logo" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto menu__items">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienSoy.html">QUIÉN SOY</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                SERVICIOS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="alimentacion.html">Alimentación y Nutrición</a>
+                <a class="dropdown-item" href="entrenamientoM.html">Entrenamiento mental</a>
+                <a class="dropdown-item active" href="entrenamientoF.html">Entrenamiento físico</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">PLANES Y RUTINAS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="section1">
+      <div class="container servicios">
+        <article>
+          <div class="servicios__contenedor">
+            <h1 class="servicios__titulo">Entrenamiento físico</h1>
+            <h2 class="servicios__subtitulo">Las sesiones de entrenamiento se dividirán en 3 partes:</h2>
             <h3 class="servicios_subtitulo">Acondicionamiento inicial / Entrada en calor</h3>
-            <p class="servicios__parrafo">Antes de empezar con el desarrollo de la sesión de entrenamiento, se necesita que el organismo se vaya adaptando al ejercicio físico de manera progresiva. Por lo tanto, la entrada en calor va a ser la primera parte que se va a realizar en toda sesión que se haga, por medio de ejercicios de core (zona media) y de movilidad articular. Algunos de los objetivos de este acondicionamiento previo son:
-            <br>
-            - Reducir el riesgo de lesiones.
-            <br>
-            - Prepararnos físicamente, fisiológicamente y psicológicamente al entrenamiento posterior.
-            <br>
-            - Elevar la temperatura corporal promoviendo la activación de enzimas y los niveles hormonales.
-            <br>
-            - Aumentar la irrigación de sangre a las distintas zonas del cuerpo, permitiendo una mejor llegada de nutrientes y oxígeno a los músculos.
-            <br>
-            - Remueve el líquido sinovial que es el líquido ubicado en las articulaciones, favoreciendo la amortiguación y reduciendo la fricción de las mismas.
+            <p class="servicios__parrafo">Antes de empezar con el desarrollo de la sesión de entrenamiento, se necesita
+              que el organismo se vaya adaptando al ejercicio físico de manera progresiva. Por lo tanto, la entrada en
+              calor va a ser la primera parte que se va a realizar en toda sesión que se haga, por medio de ejercicios
+              de core (zona media) y de movilidad articular. Algunos de los objetivos de este acondicionamiento previo
+              son:
+              <br>
+              - Reducir el riesgo de lesiones.
+              <br>
+              - Prepararnos físicamente, fisiológicamente y psicológicamente al entrenamiento posterior.
+              <br>
+              - Elevar la temperatura corporal promoviendo la activación de enzimas y los niveles hormonales.
+              <br>
+              - Aumentar la irrigación de sangre a las distintas zonas del cuerpo, permitiendo una mejor llegada de
+              nutrientes y oxígeno a los músculos.
+              <br>
+              - Remueve el líquido sinovial que es el líquido ubicado en las articulaciones, favoreciendo la
+              amortiguación y reduciendo la fricción de las mismas.
             </p>
             <br>
             <h3 class="servicios_subtitulo">Parte principal de la sesión</h3>
-            <p class="servicios__parrafo">Es el trabajo físico principal del día, que se organizará de acuerdo a los objetivos de entrenamiento que se propongan. La idea es ir aumentando la intensidad de manera progresiva a lo largo de las semanas y siempre respetando los tiempos fisiológicos que se necesitan para ir en dirección hacia los objetivos propuestos. Los estímulos de entrenamiento deben ser variables para desarrollar un acervo motor (experiencias motrices) más completo pero al mismo tiempo, se requiere de una adaptación repetitiva a los ejercicios.
+            <p class="servicios__parrafo">Es el trabajo físico principal del día, que se organizará de acuerdo a los
+              objetivos de entrenamiento que se propongan. La idea es ir aumentando la intensidad de manera progresiva a
+              lo largo de las semanas y siempre respetando los tiempos fisiológicos que se necesitan para ir en
+              dirección hacia los objetivos propuestos. Los estímulos de entrenamiento deben ser variables para
+              desarrollar un acervo motor (experiencias motrices) más completo pero al mismo tiempo, se requiere de una
+              adaptación repetitiva a los ejercicios.
             </p>
-            <br>  
+            <br>
             <h3 class="servicios_subtitulo">Vuelta a la calma</h3>
-            <p class="servicios__parrafo">Es la parte final de la sesión, en donde se harán estiramientos de los músculos trabajados. Con los estiramientos, permitimos una relajación muscular eliminando ciertas sobrecargas musculares producidas durante los ejercicios por las contracciones repetitivas que tenderán al acortamiento de dichos músculos. Algunos de los objetivos que se pueden mencionar de los estiramientos son:
-            <br>
-            - Promover el equilibrio orgánico del cuerpo (homeostasis).
-            <br>
-            - Restablecer los sustratos energéticos empleados durante el entrenamiento.
-            <br>
-            - Reducir el riesgo de lesiones y contracturas.
-            <br>
-            - Mejorar el autoconocimiento del cuerpo.
-            <br>
-            - Lograr una mayor amplitud de movimiento, lo que significa una mayor movilidad articular.
-            <br>
-            - Contribuye a la relajación muscular después de un trabajo intenso.
-            <br>
-            - Se puede combinar muy bien con técnicas de respiración y relajación.
+            <p class="servicios__parrafo">Es la parte final de la sesión, en donde se harán estiramientos de los
+              músculos trabajados. Con los estiramientos, permitimos una relajación muscular eliminando ciertas
+              sobrecargas musculares producidas durante los ejercicios por las contracciones repetitivas que tenderán al
+              acortamiento de dichos músculos. Algunos de los objetivos que se pueden mencionar de los estiramientos
+              son:
+              <br>
+              - Promover el equilibrio orgánico del cuerpo (homeostasis).
+              <br>
+              - Restablecer los sustratos energéticos empleados durante el entrenamiento.
+              <br>
+              - Reducir el riesgo de lesiones y contracturas.
+              <br>
+              - Mejorar el autoconocimiento del cuerpo.
+              <br>
+              - Lograr una mayor amplitud de movimiento, lo que significa una mayor movilidad articular.
+              <br>
+              - Contribuye a la relajación muscular después de un trabajo intenso.
+              <br>
+              - Se puede combinar muy bien con técnicas de respiración y relajación.
             </p>
             <br>
-        </div>
-    </article>
-    </div>
-  </section>
-<section id="section2" class="imageLink">
-  <img src="./img/posicionPie.jpg" alt="fondo">
-  <a href="contacto.html">
-  <p>Para más información, contactame ahora haciendo click aquí</p>
-  </a>
-</section> 
-  <footer>
-    <div class="footer">
-      <img src="./img/firmaLogo.jpeg" class="footer__firmaLogo" alt="">
-      <section class="footer__contacto">
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="section2" class="imageLink">
+      <img src="./img/posicionPie.jpg" alt="fondo">
+      <a href="contacto.html">
+        <p>Para más información, contactame ahora haciendo click aquí</p>
+      </a>
+    </section>
+    <footer>
+      <div class="footer">
+        <img src="./img/firmaLogo.jpeg" class="footer__firmaLogo" alt="">
+        <section class="footer__contacto">
           <h3 class="footer__titulo">Contactame</h3>
           <div class="footer__iconos">
-              <span class="footer__contenedor-iconos">
-                  <a href="https://wa.link/xh6pax" target="_blank"><img src="img/whatsapp.png" class="footer__icono" alt=""></a>
-              </span>
-              <span class="footer__contenedor-iconos">
-                  <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" class="footer__icono" alt=""></a>                        
-              </span>
-              <span class="footer__contenedor-iconos">
-                  <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" class="footer__icono" alt=""></a>
-              </span>
+            <span class="footer__contenedor-iconos">
+              <a href="https://wa.link/xh6pax" target="_blank"><img src="img/whatsapp.png" class="footer__icono"
+                  alt=""></a>
+            </span>
+            <span class="footer__contenedor-iconos">
+              <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" class="footer__icono"
+                  alt=""></a>
+            </span>
+            <span class="footer__contenedor-iconos">
+              <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" class="footer__icono"
+                  alt=""></a>
+            </span>
           </div>
-      </section>
-    </div>
-  </footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </section>
+      </div>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
