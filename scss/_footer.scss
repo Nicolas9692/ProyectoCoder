@@ -1,0 +1,48 @@
+/* Footer */
+
+.footer {
+ background-color: #fff;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ align-items: center;
+ border-bottom: 1px solid #fff;
+ box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+ width: 100vw;
+
+ .footer__firmaLogo {
+  height: 120px;
+  width: 400px;
+  object-fit: cover;
+ }
+
+ .footer__titulo {
+  font-weight: 400;
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+ }
+
+ .footer__iconos {
+  display: flex;
+  justify-content: space-evenly;
+
+  .footer__contenedor-iconos {
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   color: #fff;
+   text-align: center;
+
+   .footer__icono {
+    color: inherit;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+   }
+  }
+ }
+}

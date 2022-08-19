@@ -3,23 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/style1.css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nicolas9692/ProyectoCoder.git"
+    "url": "proyectoCoder"
   },
   "author": "Nicolas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nicolas9692/ProyectoCoder/issues"
-  },
-  "homepage": "https://github.com/Nicolas9692/ProyectoCoder#readme",
-  "dependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.19"
-  }
+  "license": "ISC"
 }
