@@ -38,12 +38,321 @@ body {
 ul.show {
   top: 65px; }
 
+/* Index */
+.card {
+  margin-top: -10px;
+  width: 100%;
+  height: 1100px;
+  margin-top: -10px;
+  background-image: url(../img/bicepsSentado.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover; }
+  .card .card__texto {
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    font-size: 30px; }
+    .card .card__texto .card__titulo {
+      font-size: 3.2rem; }
+    .card .card__texto .card__subtitulo {
+      font-size: 2rem;
+      font-weight: 300;
+      margin: 15px 0; }
+    .card .card__texto .card__cta {
+      display: inline-block;
+      background: #fff;
+      padding: var(--boton-padding);
+      text-decoration: none;
+      border-radius: 40px; }
+
+/* Index__jercicios */
+.ejercicios {
+  background: #b7d568; }
+  .ejercicios .contenedor__subtitulo {
+    margin-top: 20px;
+    color: #646363;
+    text-align: center; }
+  .ejercicios .contenedor__parrafo {
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 15px 15px; }
+  .ejercicios .ejercicios__grid {
+    display: grid;
+    height: 550px;
+    grid-template-areas: "img1 img1 img2 img3" "img1 img1 img4 img5";
+    gap: 10px; }
+    .ejercicios .ejercicios__grid .ejercicios__item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      .ejercicios .ejercicios__grid .ejercicios__item:nth-of-type(1) {
+        grid-area: img1; }
+      .ejercicios .ejercicios__grid .ejercicios__item:nth-of-type(2) {
+        grid-area: img2; }
+      .ejercicios .ejercicios__grid .ejercicios__item:nth-of-type(3) {
+        grid-area: img3; }
+      .ejercicios .ejercicios__grid .ejercicios__item:nth-of-type(4) {
+        grid-area: img4; }
+      .ejercicios .ejercicios__grid .ejercicios__item .ejercicios__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer; }
+      .ejercicios .ejercicios__grid .ejercicios__item .ejercicios__hover {
+        position: absolute;
+        background-color: #b7d568;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(100%);
+        cursor: pointer;
+        transition: transform .3s ease-in-out; }
+  .ejercicios .ejercicios__item:hover .ejercicios__hover {
+    transform: translateX(0%); }
+
+/* Index__capacidades */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(1) {
+    background-color: #c4e07d;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(2) {
+    background-color: #b7d568;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(3) {
+    background-color: #a6c559;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(4) {
+    background-color: #91ae49;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(5) {
+    background-color: #87a53b;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(6) {
+    background-color: #819f35;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(7) {
+    background-color: #75922d;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(8) {
+    background-color: #74902e;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(9) {
+    background-color: #698327;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(10) {
+    background-color: #6c8922;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(11) {
+    background-color: #576e1d;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row div:nth-child(12) {
+    background-color: #415510;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+/* Index__capacidades */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(1) {
+    background-color: #c5cdb1;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(2) {
+    background-color: #b7bfa6;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(3) {
+    background-color: #9fa492;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(4) {
+    background-color: #949985;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(5) {
+    background-color: #909583;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(6) {
+    background-color: #7a7e71;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(7) {
+    background-color: #696b65;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px; }
+  .row .region:nth-child(8) {
+    background-color: #585a53;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: center; }
+
 /* QuienSoy */
 .quienSoy {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-size: 36px;
+  font-size: 60px;
   border: 10px dotted #646363;
   margin: 10px 120px;
   padding: 15px 15px; }
@@ -134,6 +443,44 @@ ul.show {
     color: #646363;
     text-align: justify; }
 
+.opciones {
+  margin-top: 10px;
+  padding: 15px 15px; }
+
+.opciones__subtitulo {
+  color: #646363;
+  text-align: center; }
+
+.opciones__plan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 15px;
+  border: 5px solid #646363;
+  width: max-width;
+  margin: 10px 10px;
+  padding: 15px 15px; }
+
+a {
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: black; }
+
+.btn--perdidaPeso {
+  background-color: #d4ee55;
+  text-decoration: none; }
+
+.btn--aumentoMuscular {
+  background-color: #629d10;
+  text-decoration: none; }
+
+.btn--mantenimientoMuscular {
+  background-color: #bbc230;
+  text-decoration: none; }
+
 /* Iframe */
 .contenedorIframe {
   height: 0;
@@ -211,7 +558,9 @@ tr {
   align-items: center;
   border-bottom: 1px solid #fff;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
-  width: 100vw; }
+  width: 100vw;
+  bottom: 0;
+  margin-top: 25px; }
   .footer .footer__firmaLogo {
     height: 120px;
     width: 400px;
@@ -220,11 +569,13 @@ tr {
     font-weight: 400;
     color: black;
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-top: 20px;
     text-align: center; }
   .footer .footer__iconos {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+    margin-left: -35px; }
     .footer .footer__iconos .footer__contenedor-iconos {
       display: inline-block;
       width: 60px;
