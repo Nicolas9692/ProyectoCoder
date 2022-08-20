@@ -60,6 +60,41 @@ body {
  }
 }
 
+/* Buttons__Cta (Index-Planesyrut) */
+
+.boton {
+ width: auto;
+ height: auto;
+ background-color: $color_secundario;
+ text-align: center;
+ color: $color_principal;
+ font-weight: bolder;
+ border: 1px solid black;
+ border-radius: 20px;
+
+ &:hover {
+  text-decoration: none;
+ }
+}
+
+.boton--perdidaGrasa {
+ @extend .boton;
+ background-color: #8bb51f;
+ color: bisque;
+}
+
+.boton--aumentoMuscular {
+ @extend .boton;
+ background-color: #628210;
+ color: bisque;
+}
+
+.boton--mantenimientoMuscular {
+ @extend .boton;
+ background-color: #a8d044;
+ color: bisque;
+}
+
 /* Index__jercicios */
 
 .ejercicios {
@@ -68,6 +103,7 @@ body {
  .contenedor__subtitulo {
   margin-top: 20px;
   color: #646363;
+  font-weight: bolder;
   text-align: center;
  }
 
@@ -207,6 +243,24 @@ $color in $colores1 {
  }
 }
 
+/* Iconos */
+
+$lado: 250px;
+
+@mixin cuadrado($lado, $color) {
+ width: $lado;
+ height: $lado;
+ background-color: $color;
+}
+
+div.cuadrado {
+ @include cuadrado(250px, rgb(200, 200, 200))
+}
+
+.icono {
+ width: $lado;
+ height: $lado;
+}
 
 /* QuienSoy */
 

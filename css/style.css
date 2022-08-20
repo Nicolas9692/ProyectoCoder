@@ -69,12 +69,38 @@ ul.show {
       text-decoration: none;
       border-radius: 40px; }
 
+/* Buttons__Cta (Index-Planesyrut) */
+.boton, .boton--perdidaGrasa, .boton--aumentoMuscular, .boton--mantenimientoMuscular {
+  width: auto;
+  height: auto;
+  background-color: #b7d568;
+  text-align: center;
+  color: #646363;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 20px; }
+  .boton:hover, .boton--perdidaGrasa:hover, .boton--aumentoMuscular:hover, .boton--mantenimientoMuscular:hover {
+    text-decoration: none; }
+
+.boton--perdidaGrasa {
+  background-color: #8bb51f;
+  color: bisque; }
+
+.boton--aumentoMuscular {
+  background-color: #628210;
+  color: bisque; }
+
+.boton--mantenimientoMuscular {
+  background-color: #a8d044;
+  color: bisque; }
+
 /* Index__jercicios */
 .ejercicios {
   background: #b7d568; }
   .ejercicios .contenedor__subtitulo {
     margin-top: 20px;
     color: #646363;
+    font-weight: bolder;
     text-align: center; }
   .ejercicios .contenedor__parrafo {
     text-align: center;
@@ -346,6 +372,16 @@ ul.show {
     margin: 10px 10px;
     padding: 10px 10px;
     position: center; }
+
+/* Iconos */
+div.cuadrado {
+  width: 250px;
+  height: 250px;
+  background-color: #c8c8c8; }
+
+.icono {
+  width: 250px;
+  height: 250px; }
 
 /* QuienSoy */
 .quienSoy {
