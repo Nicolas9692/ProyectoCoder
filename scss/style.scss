@@ -243,23 +243,14 @@ $color in $colores1 {
  }
 }
 
-/* Iconos */
-
-$lado: 250px;
-
-@mixin cuadrado($lado, $color) {
- width: $lado;
- height: $lado;
- background-color: $color;
-}
-
-div.cuadrado {
- @include cuadrado(250px, rgb(200, 200, 200))
+.iconos {
+ display: flex;
+ flex-direction: nowrap;
 }
 
 .icono {
- width: $lado;
- height: $lado;
+ height: 300px;
+ width: 150px;
 }
 
 /* QuienSoy */

@@ -373,15 +373,13 @@ ul.show {
     padding: 10px 10px;
     position: center; }
 
-/* Iconos */
-div.cuadrado {
-  width: 250px;
-  height: 250px;
-  background-color: #c8c8c8; }
+.iconos {
+  display: flex;
+  flex-direction: nowrap; }
 
 .icono {
-  width: 250px;
-  height: 250px; }
+  height: 300px;
+  width: 150px; }
 
 /* QuienSoy */
 .quienSoy {
