@@ -373,11 +373,16 @@ ul.show {
     padding: 10px 10px;
     position: center; }
 
-.iconos {
+.box1 {
   display: flex;
-  flex-direction: nowrap; }
+  flex-direction: row;
+  flex-direction: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: -30px;
+  margin-top: 20px; }
 
-.icono {
+.box1 .icono {
   height: 300px;
   width: 150px; }
 
