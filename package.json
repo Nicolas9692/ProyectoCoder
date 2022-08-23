@@ -1,7 +1,7 @@
 {
   "name": "entrenamientoaguirre",
   "version": "1.0.0",
-  "description": "",
+  "description": "sitio web de planes de entrenamiento",
   "main": "script.js",
   "dependencies": {
     "node-sass": "^7.0.1",
@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "proyectoCoder"
+    "url": "https://github.com/Nicolas9692/ProyectoCoder"
   },
-  "author": "Nicolas",
+  "author": "Nicolas Martin Aguirre",
   "license": "ISC"
 }
