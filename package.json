@@ -15,8 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nicolas9692/ProyectoCoder"
+    "url": "git+https://github.com/Nicolas9692/ProyectoCoder.git"
   },
   "author": "Nicolas Martin Aguirre",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolas9692/ProyectoCoder/issues"
+  },
+  "homepage": "https://github.com/Nicolas9692/ProyectoCoder#readme"
 }
