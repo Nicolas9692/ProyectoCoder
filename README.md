@@ -29,5 +29,3 @@ Planes y rutinas: Es un resumen más detallados (incluyendo también los precios
 Servicios: Se explican los distintos aspectos que cubren los planes, tanto sea el entrenamiento físico, alimentación y nutrición, y el entrenamiento mental.
 
 Contacto: Se visualiza un formulario de contacto que se debe completar en caso de querer obtener más información acerca de los planes de entrenamiento.
-
-
