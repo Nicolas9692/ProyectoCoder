@@ -5,7 +5,8 @@
   "main": "script.js",
   "dependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "nodesass": "0.0.2-security"
   },
   "devDependencies": {},
   "scripts": {
