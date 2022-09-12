@@ -111,6 +111,10 @@
     grid-column: 1/2;
   }
 
+  .box1 {
+    display: none;
+  }
+
   .grid>footer {
     grid-row: 4/5;
     grid-column: 1/2;
