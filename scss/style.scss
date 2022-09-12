@@ -13,7 +13,8 @@ $color_secundario: #b7d568;
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: $color_secundario;
-  overflow-x: hidden;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
 }
 
 .grid {
@@ -45,7 +46,44 @@ body {
 
 
 
-@import "header";
+/* Menu */
+
+.header__logo {
+  height: 120px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.menu__items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+  li {
+    border-radius: 3px;
+    margin: 0 5px;
+
+    &:hover,
+    &.active {
+      background-color: rgba(0, 0, 0, .3);
+      transition: .4s;
+    }
+
+    a {
+      padding: 7px 13px;
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      text-transform: uppercase;
+      color: black;
+    }
+  }
+
+}
+
+ul.show {
+  top: 65px;
+}
 
 
 /* Index */
@@ -517,44 +555,59 @@ tr {
 
 @import "contacto";
 
-@import "footer";
+/* Footer */
+footer {
+  background-color: white;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
-  .grid {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 4fr;
-    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-    overflow-x: hidden;
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    width: 100vw;
+    bottom: 0;
+    margin-top: 25px;
 
-    &>* {
-      border: 1px solid yellow;
-      background-color: brown;
+    .footer__firmaLogo {
+      height: 120px;
+      width: 400px;
+      position: center;
+      object-fit: cover;
     }
 
-    header {
-      width: 100%;
-      grid-row: 1/2;
-      grid-column: 1/2;
+    .footer__titulo {
+      font-weight: 400;
+      color: black;
+      font-size: 2rem;
+      margin-top: 20px;
+      text-align: center;
     }
 
+    .footer__iconos {
+      display: flex;
+      justify-content: space-evenly;
+      padding-bottom: 35px;
+      margin-left: -35px;
 
-    #section1 {
-      grid-row: 2/3;
-      grid-column: 1/2;
-    }
 
-    #section2 {
-      grid-row: 3/4;
-      grid-column: 1/5;
-    }
+      .footer__contenedor-iconos {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        color: #fff;
+        text-align: center;
 
-    footer {
-      grid-row: 4/5;
-      grid-column: 1/5;
-      width: 100%;
+        .footer__icono {
+          color: inherit;
+          width: 50px;
+          height: 50px;
+          font-size: 30px;
+          text-decoration: none;
+          line-height: 60px;
+        }
+      }
     }
   }
-
-
 }
