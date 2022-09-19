@@ -649,3 +649,111 @@ footer {
           font-size: 30px;
           text-decoration: none;
           line-height: 60px; }
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  /* Menu */
+  .card {
+    margin-top: -10px;
+    width: 100%;
+    height: 800px;
+    margin-top: -10px; }
+    .card .card__texto {
+      color: #fff;
+      text-align: center;
+      width: 80%;
+      font-size: 20px; }
+    .card .card__titulo {
+      font-size: 2.2rem; }
+    .card .card__subtitulo {
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin: 15px 0; }
+  /* QuienSoy_carousel */
+  .header .header__logo {
+    height: 20px;
+    width: 100px;
+    object-fit: cover; }
+  .imgChica {
+    margin: auto;
+    width: 400px;
+    height: 600px; }
+  /* servicios__Imagen */
+  .imageLink {
+    width: 300px;
+    height: 500px; }
+  .footer .footer__firmaLogo {
+    height: 60px;
+    width: 200px; } }
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  /* Menu */
+  .card {
+    margin-top: -10px;
+    width: auto;
+    height: 600px; }
+  /* QuienSoy_carousel */
+  .header .header__logo {
+    height: 40px;
+    width: 100px;
+    object-fit: cover; }
+  .imgChica {
+    margin: auto;
+    width: 400px;
+    height: 600px; }
+  /* servicios__Imagen */
+  .imageLink {
+    width: 400px;
+    height: 600px; }
+  .footer .footer__firmaLogo {
+    height: 60px;
+    width: 200px; } }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  /* Menu */
+  .card {
+    margin-top: -10px;
+    width: auto;
+    height: 1100px;
+    margin-top: -10px;
+    background-image: url(../img/bicepsSentado.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover; }
+    .card .card__texto {
+      color: #fff;
+      text-align: center;
+      width: 80%;
+      font-size: 30px; }
+      .card .card__texto .card__titulo {
+        font-size: 3.2rem; }
+      .card .card__texto .card__subtitulo {
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 15px 0; }
+      .card .card__texto .card__cta {
+        display: inline-block;
+        background: #fff;
+        padding: var(--boton-padding);
+        text-decoration: none;
+        border-radius: 40px; }
+  /* QuienSoy_carousel */
+  .header .header__logo {
+    height: 40px;
+    width: 100px;
+    object-fit: cover; }
+  .imgChica {
+    margin: auto;
+    width: 400px;
+    height: 600px; }
+  /* servicios__Imagen */
+  .imageLink {
+    width: 400px;
+    height: 600px; }
+  .footer .footer__firmaLogo {
+    height: 60px;
+    width: 200px; } }
