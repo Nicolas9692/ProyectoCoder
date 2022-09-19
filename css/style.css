@@ -9,8 +9,7 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #b7d568;
-  max-width: 100vw !important;
-  overflow-x: hidden !important; }
+  max-width: 100vw !important; }
 
 .grid {
   display: grid;
